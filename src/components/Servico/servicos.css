@@ -1,0 +1,19 @@
+.servico{
+    display: flexbox;
+    justify-content: space-between;
+    background-color: black;
+    color: aliceblue;
+    padding: 2%;
+    width: 96%;
+    height: 30vh;
+    h1, p{
+        width:70%; 
+        margin-left: 5%;
+    }
+
+}
+
+.imagem{
+    text-align: end;
+    
+}

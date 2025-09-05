@@ -1,0 +1,27 @@
+.Cardapio {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 20px;
+  padding: 40px;
+  background: #fafafa;
+}
+
+.cardapio-titulo {
+  grid-column: 1 / -1;
+  text-align: center;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #ff5722;
+  margin-bottom: 30px;
+  position: relative;
+}
+
+.cardapio-titulo::after {
+  content: "";
+  display: block;
+  width: 80px;
+  height: 4px;
+  background: #ff5722;
+  margin: 10px auto 0 auto;
+  border-radius: 2px;
+}

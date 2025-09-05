@@ -1,0 +1,72 @@
+.Pedido {
+  max-width: 450px;
+  margin: 40px auto;
+  padding: 25px;
+  background: #fff;
+  border-radius: 12px;
+  box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.15);
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.Pedido h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #ff5722;
+  font-size: 1.8rem;
+}
+
+.Pedido form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.Pedido label {
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 5px;
+}
+
+.Pedido input,
+.Pedido select {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  font-size: 1rem;
+  transition: border 0.2s ease;
+}
+
+.Pedido input:focus,
+.Pedido select:focus {
+  border-color: #ff5722;
+}
+
+.Pedido button {
+  padding: 12px;
+  background: #ff5722;
+  color: white;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  cursor: pointer;
+  margin-top: 10px;
+  transition: background 0.3s ease;
+}
+
+.Pedido button:hover {
+  background: #e64a19;
+}
+
+/* Responsividade */
+@media (max-width: 500px) {
+  .Pedido {
+    margin: 20px;
+    padding: 20px;
+  }
+
+  .Pedido h2 {
+    font-size: 1.5rem;
+  }
+}

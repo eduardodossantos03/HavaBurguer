@@ -1,0 +1,19 @@
+.nav{
+    background-color: black;
+    color: bisque;
+    display: flex;   
+    text-align: center;
+    li{
+        list-style: none;
+        margin-left: 12%;
+        margin-top: 2%;  
+    }
+    img{
+        margin-left: 12px;
+        margin-bottom: 4px;
+    }
+}
+
+.nav :hover{
+    color:  #ff9800;
+}

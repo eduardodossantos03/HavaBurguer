@@ -14,7 +14,7 @@ function Acao(e) {
 }
 
 function enviarPedido(pedido){
-  const numero = 11958846354
+  const numero = 11964348439
   const mensagem = 
     `Pedido de: ${usuario}\nTelefone: ${numero}\nEndereço: ${endereco}\nLanche: ${lanche}`
     const url = `https://wa.me/${11964348439}?text=${encodeURIComponent(mensagem)}`;

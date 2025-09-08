@@ -1,10 +1,28 @@
 .servico {
-    text-aling:center;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; /* Centraliza verticalmente */
+    background-color: black;
     color: aliceblue;
     padding: 2%;
     width: 96%;
     height: 30vh;
-    gap: 2rem; 
+    gap: 2rem;
 }
 
+.servico h1,
+.servico p {
+    width: 70%;
+}
+
+.imagem {
+    flex: 1;
+    text-align: right;
+}
+
+.imagem img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
 

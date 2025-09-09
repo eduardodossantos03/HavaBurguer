@@ -14,10 +14,10 @@ function Acao(e) {
 }
 
 function enviarPedido(pedido){
-  const numero = 11964348439
+  const numeroLoja = 11964348439
   const mensagem = 
     `Pedido de: ${usuario}\nTelefone: ${numero}\nEndereço: ${endereco}\nLanche: ${lanche}`
-    const url = `https://wa.me/${11964348439}?text=${encodeURIComponent(mensagem)}`;
+    const url = `https://wa.me/${numeroLoja}?text=${encodeURIComponent(mensagem)}`;
     window.open(url, "_blank");
 }
 

@@ -13,15 +13,3 @@
 .servico p {
     width: 70%;
 }
-
-.imagem {
-    flex: 1;
-    text-align: right;
-}
-
-.imagem img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-

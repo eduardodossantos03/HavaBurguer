@@ -1,6 +1,5 @@
 .servico {
-    display: flex;
-    justify-content: center;
+    text-align: center;
     align-items: center;
     background-color: black;
     color: aliceblue;

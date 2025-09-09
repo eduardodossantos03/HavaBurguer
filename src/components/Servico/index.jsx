@@ -18,9 +18,6 @@ Seja para uma refeição com os amigos, um delivery no conforto de casa ou até 
             </p>
         </div>
 
-        <div className="imagem">
-            <img src={HavaLogo} alt="lOGO" srcset="" />
-        </div>
         </div>
         
     )

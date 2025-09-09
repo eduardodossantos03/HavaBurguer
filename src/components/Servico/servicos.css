@@ -1,10 +1,56 @@
 .servico {
-    text-align: center;
-    align-items: center;
-    background-color: black;
-    color: aliceblue;
-    padding: 2%;
-    width: 96%;
-    height: 30vh;
-    gap: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 60px 20px;
+  background: linear-gradient(135deg, #ff914d, #ff3131);
+  color: #fff;
+  text-align: center;
+}
+
+.texto-servico {
+  max-width: 900px;
+}
+
+.texto-servico h1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  color: #fff;
+  text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+}
+
+.texto-servico p {
+  font-size: 1.2rem;
+  line-height: 1.8;
+  margin-bottom: 15px;
+  color: #f9f9f9;
+}
+
+
+@media (max-width: 768px) {
+  .texto-servico h1 {
+    font-size: 2rem;
+  }
+
+  .texto-servico p {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .servico {
+    padding: 40px 15px;
+  }
+
+  .texto-servico h1 {
+    font-size: 1.6rem;
+  }
+
+  .texto-servico p {
+    font-size: 0.95rem;
+  }
 }
